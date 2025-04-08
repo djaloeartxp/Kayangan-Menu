@@ -2,20 +2,61 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>MENU KAYANGAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Warung Bu Sari</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 20px; }
-    h1 { color: #2c3e50; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 10px 0; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      background-color: #fefefe;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .menu-item {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .menu-item img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .menu-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .menu-price {
+      color: #888;
+    }
   </style>
 </head>
 <body>
-  <h1>📋 MENU KAYANGAN</h1>
-  <ul>
-    <img src="https://github.com/djaloeartxp/Kayangan-Menu/blob/main/Artboard%202.jpg?raw=true" width="300">
-    <li>🍛 Nasi Goreng Ayam - Rp18.000</li>
-    <li>🥤 Es Jeruk - Rp7.000</li>
-  </ul>
+  <h1>🍽️ Menu Warung Bu Sari</h1>
+
+  <div class="menu-item">
+    <div class="menu-title">Nasi Goreng Ayam</div>
+    <div class="menu-price">Rp18.000</div>
+    <img src="https://raw.githubusercontent.com/username/menu-resto/main/nasi-goreng.jpg" alt="Nasi Goreng Ayam">
+  </div>
+
+  <div class="menu-item">
+    <div class="menu-title">Mie Ayam Spesial</div>
+    <div class="menu-price">Rp15.000</div>
+    <img src="https://raw.githubusercontent.com/username/menu-resto/main/mie-ayam.jpg" alt="Mie Ayam Spesial">
+  </div>
+
+  <div class="menu-item">
+    <div class="menu-title">Es Jeruk</div>
+    <div class="menu-price">Rp7.000</div>
+    <!-- Kalau gak ada gambar, bagian ini bisa dihapus -->
+  </div>
+
 </body>
 </html>
